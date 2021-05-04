@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import filedialog
 
 # Script varibles
-FD_AllFiles                 = 0 #Set this depending if you want the script to run on all files in current directory or show a file dialog
+FD_AllFiles                 = 1 #Set this depending if you want the script to run on all files in current directory or show a file dialog
 Threshold_Height            = 4 #Set the threshold for when a rapid move should happen
 New_Feedrate                = 3001 #Set rapid move feedrate
 
@@ -21,7 +21,7 @@ if FD_AllFiles == 0:
 
     file_path = filedialog.askopenfilenames()
 else:
-    file_path = os.listdir()
+    file_path = [os.getcwd() + "\\" + s for s in os.listdir()]
 
 
 
@@ -35,7 +35,7 @@ for SelectedFiles in file_path:
     with open(SelectedFiles) as f:
         for line in f:
     # Check to see if the line is a comment or empty and discard it 
-            if ";" in line or line in ['\n', '\r\n']:
+            if ";" in line or line in ['\n', '\r\n'] or "(" in line or ")" in line:
                 continue
     #
             #print("Input Line = ",line.replace("\n", " "))

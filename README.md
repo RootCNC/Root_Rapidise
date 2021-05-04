@@ -1,14 +1,19 @@
 
+
 <img align="right" width=175 src="Media/R_Logo.png" />
 
 # Root CNC
 
 Root_Rapdise is a tool that aims to add rapid movements back into the Gcode Fusion360 CAM that is limited to persional uses.
 
-The tool will add a user defined feedrate to movements aboove a given threshold.
+The tool will add a user defined feederate to movements above a given threshold.
 
 This tool is a work around to the current notification for rapid movements in Fusion360
-'When using Fusion 360 for Personal Use, the feedrate of rapid moves is reduced to match the feedrate of cutting moves, which can increase machining time. Unrestricted rapid moves are available with a Fusion 360 Subscription.'
+
+    ;When using Fusion 360 for Personal Use, the feedrate of
+    ;rapid moves is reduced to match the feedrate of cutting
+    ;moves, which can increase machining time. Unrestricted rapid
+    ;moves are available with a Fusion 360 Subscription.
 
 ## License
 

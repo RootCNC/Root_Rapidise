@@ -35,11 +35,16 @@ Attribution-NonCommerial-ShareAlike see `LICENSE.txt` for details
 * From dropdown select `Open command window here` or `Open PowerShell windows here`
 * Write `nc_rapid.py` and press `ENTER KEY`
 
+### In work !
+<p align="center">
+  <img src="demo.gif">
+</p>
+
 ### Dont want to Install? Want to run it standalone?
 * Open the `nc_rapid.py` in a text editor
 * Change the variable of `FD_AllFiles  = 0`  to `FD_AllFiles  = 1`
 * Save changes
-* Run - Double click the `nc_rapid.py` and it'll open a file dialog where you can select the files you want to rapodise
+* Run - Double click the `nc_rapid.py` and it'll open a file dialog where you can select the files you want to rapidise
 
 ## Settings
 * Open the `nc_rapid.py` in a text editor

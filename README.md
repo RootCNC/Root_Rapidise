@@ -48,7 +48,8 @@ Attribution-NonCommerial-ShareAlike see `LICENSE.txt` for details
 <p align="center">
   <img src="demo_1.gif">
 </p>
-## Settings
+
+### Settings
 
 * Open the `nc_rapid.py` in a text editor
 * `Threshold_Height = 4` #Set the threshold for when a rapid move should be applied

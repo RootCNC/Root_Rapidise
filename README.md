@@ -49,6 +49,7 @@ Attribution-NonCommerial-ShareAlike see `LICENSE.txt` for details
   <img src="demo_1.gif">
 </p>
 ## Settings
+
 * Open the `nc_rapid.py` in a text editor
 * `Threshold_Height = 4` #Set the threshold for when a rapid move should be applied
 * `New_Feedrate  = 3001` #Set the new rapid move feedrate you want
